@@ -44,3 +44,51 @@
 .im3 {
     justify-content: space-evenly;
 }
+
+/* --- BORDA DOURADA PARA AS IMAGENS DO CATÁLOGO --- */
+
+main .img-fluid {
+    border: 5px solid #D4AF37; /* Tom Dourado Clássico (Metallic Gold) */
+    border-radius: 8px; /* Cantos levemente arredondados para acabamento moderno */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Sombra suave para destacar a foto do fundo */
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px; /* Espaço extra para não colar nas bordas */
+}
+
+/* Efeito interativo ao passar o mouse sobre as fotos */
+main .img-fluid:hover {
+    transform: scale(1.02); /* Leve zoom na foto */
+    border-color: #FFD700; /* Dourado mais brilhante no hover */
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4); /* Sombra com reflexo dourado */
+}
+/* --- LINHAS DOURADAS DE SEPARAÇÃO --- */
+
+.header {
+    border-bottom: 8px solid #C5A059; /* Tom de dourado mais sóbrio e elegante */
+    background-color: #fafafa; /* Fundo levemente cinza/clean para destacar o ouro (opcional) */
+}
+
+.footer {
+    border-top: 8px solid #C5A059;
+    background-color: #1a1a1a; /* Rodapé escuro faz o dourado e o texto se destacarem muito mais */
+    color: #ffffff;
+}
+/* --- ÍCONES DE CONTATO NO RODAPÉ --- */
+
+.social-links {
+    margin-top: 10px;
+}
+
+/* Define o tamanho padrão pequeno para os ícones PNG */
+.social-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain; /* Garante que a imagem não se distorça */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Efeito ao passar o mouse por cima (Hover) */
+.social-links a:hover .social-icon {
+    transform: scale(1.2); /* Leve zoom no ícone */
+    filter: drop-shadow(0 0 6px rgba(212, 175, 55, 0.8)); /* Brilho dourado combinando com a borda */
+}
