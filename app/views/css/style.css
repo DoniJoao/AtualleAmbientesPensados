@@ -92,3 +92,26 @@ main .img-fluid:hover {
     transform: scale(1.2); /* Leve zoom no ícone */
     filter: drop-shadow(0 0 6px rgba(212, 175, 55, 0.8)); /* Brilho dourado combinando com a borda */
 }
+/* --- ESTILO DO TELEFONE FIXO NO RODAPÉ --- */
+
+/* --- CORREÇÃO DEFINITIVA PARA O LINK DO TELEFONE --- */
+
+.footer a.phone-link,
+a.phone-link {
+    color: #ffffff !important; /* Força a cor branca no link */
+    text-decoration: none !important; /* Remove o sublinhado azul do Bootstrap */
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Brilho dourado ao passar o mouse */
+.footer a.phone-link:hover,
+a.phone-link:hover {
+    color: #D4AF37 !important; 
+}
+
+/* Ajuste fino para alinhar os contatos sem margens sobrando */
+.footer .social-links {
+    margin-top: 0;
+}
