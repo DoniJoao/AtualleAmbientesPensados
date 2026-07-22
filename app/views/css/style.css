@@ -1,4 +1,5 @@
 /* Estilo do botão flutuante (o link em si) */
+
 .float-whatsapp {
     position: fixed;
     width: 60px;
@@ -58,16 +59,22 @@ main .img-fluid {
 /* Efeito interativo ao passar o mouse sobre as fotos */
 main .img-fluid:hover {
     transform: scale(1.02); /* Leve zoom na foto */
-    border-color: #FFD700; /* Dourado mais brilhante no hover */
+    border-color: #bcb79d; /* Dourado mais brilhante no hover */
     box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4); /* Sombra com reflexo dourado */
 }
 /* --- LINHAS DOURADAS DE SEPARAÇÃO --- */
 
 .header {
-    border-bottom: 8px solid #C5A059; /* Tom de dourado mais sóbrio e elegante */
-    background-color: #fafafa; /* Fundo levemente cinza/clean para destacar o ouro (opcional) */
+    background: linear-gradient(135deg, #121212 0%, #2b2b2b 100%);
+    border-bottom: 4px solid #D4AF37;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
+.header-subtitle {
+    color: #D4AF37; /* Subtítulo em dourado */
+    font-weight: 300;
+    letter-spacing: 1px;
+}
 .footer {
     border-top: 8px solid #C5A059;
     background-color: #1a1a1a; /* Rodapé escuro faz o dourado e o texto se destacarem muito mais */
